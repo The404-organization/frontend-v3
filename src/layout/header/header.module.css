@@ -29,6 +29,7 @@
 
 	.logo {
 		width: 160px;
+		height: 64px;
 	}
 }
 
@@ -39,6 +40,7 @@
 
 	.logo {
 		width: 150px;
+		height: 60px;
 	}
 
 	.navigation {
@@ -54,6 +56,7 @@
 @media (max-width: 1120px) {
 	.logo {
 		width: 120px;
+		height: 48px;
 	}
 
 	.navigation {
@@ -77,6 +80,7 @@
 
 	.logo {
 		width: 90px;
+		height: 36px;
 	}
 
 	.buttonWrapper {
@@ -112,6 +116,7 @@
 
 	.logo {
 		width: 51px;
+		height: 20px;
 	}
 
 	.buttonWrapper {

@@ -1,5 +1,5 @@
 .wrapper {
-	padding: 150px 320px 213px 247px;
+	padding: 150px 0 213px 0;
 	position: relative;
 }
 
@@ -33,6 +33,8 @@
 
 .content {
 	gap: 40px;
+	width: 1350px;
+	margin: 0 auto;
 	display: flex;
 	align-items: flex-start;
 }
@@ -76,4 +78,285 @@
 
 .button {
 	width: 291px;
+}
+
+@media (max-width: 1620px) {
+	.blur {
+		left: -400px;
+		top: -550px;
+	}
+
+	.largeCircle {
+		left: -60px;
+	}
+
+	.smallCircle {
+		right: -30px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.largeCircle {
+		top: 300px;
+	}
+
+	.content {
+		width: 1250px;
+	}
+
+	.monkey {
+		width: 645px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.content {
+		width: 1200px;
+	}
+
+	.monkey {
+		width: 600px;
+	}
+
+	.title {
+		font-size: 65px;
+	}
+
+	.subtitle {
+		font-size: 34px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.content {
+		width: 1100px;
+	}
+
+	.title {
+		font-size: 60px;
+	}
+
+	.subtitle {
+		font-size: 30px;
+	}
+
+	.monkey {
+		width: 550px;
+	}
+}
+
+@media (max-width: 1150px) {
+	.wrapper {
+		padding: 100px 0 150px 0;
+	}
+
+	.content {
+		width: 950px;
+	}
+
+	.monkey {
+		width: 500px;
+	}
+
+	.title {
+		font-size: 50px;
+		line-height: 150%;
+	}
+
+	.subtitle {
+		font-size: 25px;
+		line-height: 150%;
+	}
+}
+
+@media (max-width: 1050px) {
+	.wrapper {
+		padding: 80px 0 136px 0;
+	}
+
+	.content {
+		width: 850px;
+	}
+
+	.monkey {
+		width: 450px;
+	}
+
+	.title {
+		font-size: 45px;
+	}
+
+	.subtitle {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 900px) {
+	.wrapper {
+		padding: 50px 0 136px 0;
+	}
+
+	.largeCircle {
+		top: 100px;
+	}
+
+	.smallCircle {
+		top: 120px;
+	}
+
+	.content {
+		width: 750px;
+	}
+
+	.monkey {
+		width: 400px;
+	}
+
+	.title {
+		font-size: 35px;
+	}
+
+	.subtitle {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 800px) {
+	.wrapper {
+		padding: 40px 0 136px 0;
+	}
+
+	.content {
+		gap: 20px;
+		width: 630px;
+	}
+
+	.monkey {
+		width: 340px;
+	}
+
+	.title {
+		font-size: 31px;
+		line-height: 150%;
+	}
+
+	.subtitle {
+		font-size: 17px;
+		line-height: 150%;
+	}
+
+	.button {
+		width: 222px;
+		height: 50px;
+	}
+
+	.button p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 700px) {
+	.wrapper {
+		padding: 30px 0 105px 0;
+	}
+
+	.content {
+		gap: 25px;
+		width: 80%;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.textContent {
+		gap: 20px;
+		padding-top: 0;
+		align-items: center;
+	}
+
+	.title,
+	.subtitle {
+		text-align: center;
+	}
+
+	.button {
+		width: 270px;
+		height: 50px;
+	}
+
+	.button p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.wrapper {
+		padding: 30px 0 90px 0;
+	}
+
+	.content {
+		gap: 16px;
+	}
+
+	.title {
+		font-size: 29px;
+	}
+
+	.subtitle {
+		font-size: 15px;
+	}
+
+	.button {
+		width: 260px;
+		height: 46px;
+	}
+}
+
+@media (max-width: 550px) {
+	.wrapper {
+		padding: 20px 0 80px 0;
+	}
+
+	.monkey {
+		width: 270px;
+	}
+
+	.title {
+		font-size: 27px;
+	}
+
+	.subtitle {
+		font-size: 13px;
+	}
+
+	.button {
+		width: 253px;
+		height: 42px;
+	}
+}
+
+@media (max-width: 450px) {
+	.wrapper {
+		padding: 12px 0 30px 0;
+	}
+
+	.largeCircle {
+		left: -80px;
+	}
+
+	.monkey {
+		width: 260px;
+	}
+
+	.title {
+		font-size: 22px;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
+	}
 }
