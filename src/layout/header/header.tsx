@@ -6,7 +6,7 @@ import styles from './header.module.css';
 export const Header = () => {
 	return (
 		<header className={styles.header}>
-			<LogoIcon />
+			<LogoIcon className={styles.logo} />
 			<nav className={styles.navigation}>
 				<MenuLink label="Mission" link="" />
 				<MenuLink label="Fractionalization" link="" />
@@ -15,7 +15,11 @@ export const Header = () => {
 				<MenuLink label="why erc-404" link="" />
 				<MenuLink label="Team" link="" />
 			</nav>
-			<Button label="Buy now" />
+			<Button
+				wrapperClassName={styles.buttonWrapper}
+				buttonClassName={styles.buttonContent}
+				label="Buy now"
+			/>
 		</header>
 	);
 };

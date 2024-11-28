@@ -13,7 +13,7 @@
 
 .line {
 	position: absolute;
-	bottom: -63px;
+	bottom: -66px;
 	left: 0;
 	width: 0;
 	height: 3px;
@@ -23,4 +23,40 @@
 
 .wrapper:hover .line {
 	width: 100%;
+}
+
+@media (max-width: 1300px) {
+	.label {
+		font-size: 13px;
+	}
+
+	.line {
+		bottom: -67px;
+	}
+}
+
+@media (max-width: 1120px) {
+	.label {
+		font-size: 10px;
+	}
+
+	.line {
+		bottom: -70px;
+	}
+}
+
+@media (max-width: 900px) {
+	.label {
+		font-size: 8px;
+	}
+
+	.line {
+		bottom: -60px;
+	}
+}
+
+@media (max-width: 768px) {
+	.line {
+		bottom: -50px;
+	}
 }

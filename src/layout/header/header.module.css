@@ -11,3 +11,115 @@
 	display: flex;
 	align-items: center;
 }
+
+@media (max-width: 1620px) {
+	.header {
+		padding: 40px 110px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.header {
+		padding: 40px 68px;
+	}
+
+	.logo {
+		width: 160px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.header {
+		padding: 40px 50px;
+	}
+
+	.logo {
+		width: 150px;
+	}
+
+	.navigation {
+		gap: 40px;
+	}
+
+	.buttonWrapper {
+		width: 138px;
+		height: 50px;
+	}
+
+	.buttonContent {
+		padding: 0;
+	}
+}
+
+@media (max-width: 1120px) {
+	.logo {
+		width: 120px;
+	}
+
+	.navigation {
+		gap: 30px;
+	}
+
+	.buttonWrapper {
+		width: 120px;
+		height: 40px;
+	}
+
+	.buttonContent p {
+		font-size: 15px !important;
+	}
+}
+
+@media (max-width: 900px) {
+	.header {
+		padding: 30px 50px;
+	}
+
+	.logo {
+		width: 90px;
+	}
+
+	.buttonWrapper {
+		width: 90px;
+		height: 32px;
+	}
+
+	.buttonContent p {
+		font-size: 11px !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		padding: 20px 50px;
+	}
+
+	.navigation {
+		gap: 25px;
+	}
+}
+
+@media (max-width: 730px) {
+	.navigation {
+		display: none;
+	}
+}
+
+@media (max-width: 450px) {
+	.header {
+		padding: 10px 30px;
+	}
+
+	.logo {
+		width: 51px;
+	}
+
+	.buttonWrapper {
+		width: 52px;
+		height: 19px;
+	}
+
+	.buttonContent p {
+		font-size: 7px !important;
+	}
+}
