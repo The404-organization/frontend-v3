@@ -77,3 +77,240 @@
 	margin-left: -250px;
 	margin-top: 90px;
 }
+
+@media (max-width: 1900px) {
+	.smallCircle {
+		left: 50px;
+	}
+}
+
+@media (max-width: 1620px) {
+	.content {
+		margin-right: -70px;
+	}
+
+	.smallCircle {
+		left: 30px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.wrapper {
+		padding-bottom: 130px;
+	}
+
+	.content {
+		margin-right: -90px;
+	}
+
+	.god {
+		width: 717px;
+		height: 583px;
+		margin-left: -300px;
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.largeCircle {
+		right: -50px;
+	}
+
+	.title {
+		font-size: 79px;
+	}
+
+	.text {
+		font-size: 22px;
+	}
+
+	.textContent {
+		width: 474px;
+	}
+
+	.god {
+		width: 730px;
+		height: 592px;
+		margin-left: -200px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.smallCircle {
+		display: none;
+	}
+
+	.content {
+		display: grid;
+		grid-template-areas:
+			'title title'
+			'textContent godImage';
+	}
+
+	.mainContent {
+		display: contents;
+	}
+
+	.title {
+		grid-area: title;
+		text-align: center;
+	}
+
+	.textContent {
+		grid-area: textContent;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.god {
+		grid-area: godImage;
+		margin-left: -50px;
+		margin-top: 0;
+		width: 650px;
+		height: 530px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.god {
+		width: 500px;
+		height: 406px;
+		margin-left: 0;
+	}
+
+	.textContent {
+		gap: 50px;
+	}
+
+	.text {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.content {
+		margin-right: 0;
+		padding: 0 50px;
+		align-items: center;
+		grid-template-columns: 55% 45%;
+	}
+
+	.textContent {
+		width: auto;
+	}
+
+	.god {
+		width: 415px;
+		height: 338px;
+	}
+
+	.textWrapper {
+		gap: 40px;
+	}
+
+	.button {
+		width: 180px;
+		height: 50px;
+	}
+
+	.button p {
+		font-size: 16px !important;
+	}
+}
+
+@media (max-width: 900px) {
+	.content {
+		grid-template-columns: 45% 55%;
+	}
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 700px) {
+	.blur {
+		top: 200px;
+		right: -300px;
+	}
+
+	.largeCircle {
+		top: 350px;
+	}
+
+	.content {
+		width: 100%;
+		padding: 0 20px;
+		justify-content: center;
+		grid-template-columns: 100%;
+		grid-template-areas:
+			'title'
+			'textContent'
+			'godImage';
+	}
+
+	.title {
+		margin-bottom: 20px;
+		font-size: 45px;
+		margin-right: -20px;
+		letter-spacing: 10px;
+	}
+
+	.textContent {
+		margin-bottom: 34px;
+		align-items: center;
+	}
+
+	.textWrapper {
+		text-align: center;
+		gap: 20px;
+	}
+
+	.god {
+		margin: 0 auto;
+	}
+
+	.button {
+		width: 207px;
+		height: 42px;
+	}
+
+	.button p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 450px) {
+	.largeCircle {
+		width: 50px;
+		right: -25px;
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.text {
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+	.god {
+		width: 280px;
+		height: 228px;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
+	}
+}
