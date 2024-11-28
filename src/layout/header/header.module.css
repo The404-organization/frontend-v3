@@ -1,0 +1,13 @@
+.header {
+	padding: 40px 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(4, 14, 24, 0.5);
+}
+
+.navigation {
+	gap: 45px;
+	display: flex;
+	align-items: center;
+}
