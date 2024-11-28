@@ -2,6 +2,10 @@
 	cursor: pointer;
 	text-decoration: none;
 	position: relative;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .label {
@@ -13,7 +17,7 @@
 
 .line {
 	position: absolute;
-	bottom: -66px;
+	bottom: 0;
 	left: 0;
 	width: 0;
 	height: 3px;
@@ -29,34 +33,16 @@
 	.label {
 		font-size: 13px;
 	}
-
-	.line {
-		bottom: -67px;
-	}
 }
 
 @media (max-width: 1120px) {
 	.label {
 		font-size: 10px;
 	}
-
-	.line {
-		bottom: -70px;
-	}
 }
 
 @media (max-width: 900px) {
 	.label {
 		font-size: 8px;
-	}
-
-	.line {
-		bottom: -60px;
-	}
-}
-
-@media (max-width: 768px) {
-	.line {
-		bottom: -50px;
 	}
 }

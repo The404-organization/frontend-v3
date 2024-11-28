@@ -1,5 +1,5 @@
 .header {
-	padding: 40px 160px;
+	padding: 0 160px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -8,6 +8,7 @@
 
 .navigation {
 	gap: 45px;
+	height: 144px;
 	display: flex;
 	align-items: center;
 }
@@ -18,13 +19,13 @@
 
 @media (max-width: 1620px) {
 	.header {
-		padding: 40px 110px;
+		padding: 0 110px;
 	}
 }
 
 @media (max-width: 1440px) {
 	.header {
-		padding: 40px 68px;
+		padding: 0 68px;
 	}
 
 	.logo {
@@ -35,7 +36,7 @@
 
 @media (max-width: 1300px) {
 	.header {
-		padding: 40px 50px;
+		padding: 0 50px;
 	}
 
 	.logo {
@@ -75,7 +76,11 @@
 
 @media (max-width: 900px) {
 	.header {
-		padding: 30px 50px;
+		padding: 0 50px;
+	}
+
+	.navigation {
+		height: 124px;
 	}
 
 	.logo {
@@ -95,15 +100,20 @@
 
 @media (max-width: 768px) {
 	.header {
-		padding: 20px 50px;
+		padding: 0 50px;
 	}
 
 	.navigation {
 		gap: 25px;
+		height: 104px;
 	}
 }
 
 @media (max-width: 730px) {
+	.header {
+		padding: 20px 50px;
+	}
+
 	.navigation {
 		display: none;
 	}
