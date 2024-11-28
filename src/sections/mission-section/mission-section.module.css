@@ -235,8 +235,7 @@
 
 @media (max-width: 700px) {
 	.blur {
-		top: 200px;
-		right: -300px;
+		display: none;
 	}
 
 	.largeCircle {
