@@ -1,0 +1,79 @@
+.wrapper {
+	padding: 150px 320px 213px 247px;
+	position: relative;
+}
+
+.blur {
+	width: 828px;
+	height: 828px;
+	border-radius: 828px;
+	background: rgba(93, 245, 255, 0.7);
+	filter: blur(250px);
+	position: absolute;
+	z-index: -1;
+	left: -350px;
+	top: -500px;
+}
+
+.largeCircle {
+	position: absolute;
+	z-index: -2;
+	width: 120px;
+	left: -50px;
+	top: 200px;
+}
+
+.smallCircle {
+	position: absolute;
+	z-index: -2;
+	width: 50px;
+	right: 112px;
+	top: 306px;
+}
+
+.content {
+	gap: 40px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.monkey {
+	width: 713px;
+}
+
+.textContent {
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.blue {
+	color: #5df5ff;
+}
+
+.violet {
+	color: #aec2ff;
+}
+
+.pink {
+	color: #ff8fff;
+}
+
+.title {
+	color: #fff;
+	font-size: 70px;
+	font-weight: 600;
+	line-height: 90px;
+}
+
+.subtitle {
+	color: #fff;
+	font-size: 39px;
+	font-weight: 600;
+	line-height: 50px;
+}
+
+.button {
+	width: 291px;
+}

@@ -1,7 +1,9 @@
+import { WelcomeSection } from '@/sections/welcome-section/welcome-section';
+
 const HomePage = () => {
 	return (
 		<main>
-			<p>Test</p>
+			<WelcomeSection />
 		</main>
 	);
 };

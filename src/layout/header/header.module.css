@@ -3,13 +3,17 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: rgba(4, 14, 24, 0.5);
+	background-color: rgba(4, 14, 24, 0.35);
 }
 
 .navigation {
 	gap: 45px;
 	display: flex;
 	align-items: center;
+}
+
+.buttonWrapper {
+	width: 173px;
 }
 
 @media (max-width: 1620px) {
@@ -44,10 +48,6 @@
 	.buttonWrapper {
 		width: 138px;
 		height: 50px;
-	}
-
-	.buttonContent {
-		padding: 0;
 	}
 }
 
