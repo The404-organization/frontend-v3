@@ -13,7 +13,10 @@ export const FactionalizationSection = () => {
 					Fractionalization
 				</p>
 				<div className={styles.mainContent}>
-					<img src="/fractionalization-section/statue.png" alt="" />
+					<img
+						className={styles.statue}
+						src="/fractionalization-section/statue.png"
+					/>
 					<div className={styles.leftContent}>
 						<div className={styles.textContent}>
 							<p className={styles.text}>

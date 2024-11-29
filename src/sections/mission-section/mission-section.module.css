@@ -234,6 +234,10 @@
 }
 
 @media (max-width: 700px) {
+	.wrapper {
+		padding-bottom: 80px;
+	}
+
 	.blur {
 		display: none;
 	}
@@ -285,6 +289,10 @@
 }
 
 @media (max-width: 450px) {
+	.wrapper {
+		padding-bottom: 40px;
+	}
+
 	.largeCircle {
 		width: 50px;
 		right: -25px;
