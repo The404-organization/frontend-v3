@@ -259,6 +259,8 @@
 	}
 
 	.image {
+		width: 100vw;
+		height: 72.23vw;
 		margin-bottom: 0;
 		margin-right: 0;
 	}
@@ -269,11 +271,6 @@
 		font-size: 39px;
 		line-height: 56px;
 		letter-spacing: 5.85px;
-	}
-
-	.image {
-		width: 85vw;
-		height: calc(85vw / 1.5);
 	}
 }
 
@@ -303,6 +300,7 @@
 		font-size: 27px;
 		line-height: 35px;
 		letter-spacing: 2.43px;
+		margin-right: -5px;
 	}
 
 	.textTitle {
@@ -313,5 +311,14 @@
 	.text {
 		font-size: 15px;
 		line-height: 22px;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
 	}
 }
