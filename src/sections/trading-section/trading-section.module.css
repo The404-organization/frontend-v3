@@ -5,6 +5,7 @@
 	align-items: center;
 	flex-direction: column;
 	position: relative;
+	overflow: hidden;
 }
 
 .title {
@@ -24,12 +25,14 @@
 	gap: 83px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-.rightContent {
+.leftContent {
 	gap: 80px;
 	width: 630px;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 }
 
@@ -57,4 +60,185 @@
 	left: 0;
 	top: 0;
 	width: 100%;
+}
+
+@media (max-width: 1620px) {
+	.background {
+		top: 100px;
+	}
+}
+
+@media (max-width: 1450px) {
+	.wrapper {
+		gap: 84px;
+	}
+
+	.mainContent {
+		gap: 60px;
+	}
+
+	.toad {
+		width: 550px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.title {
+		font-size: 86px;
+		letter-spacing: 17.2px;
+	}
+
+	.mainContent {
+		gap: 50px;
+	}
+
+	.leftContent {
+		width: 480px;
+	}
+
+	.textWrapper {
+		gap: 30px;
+	}
+
+	.text {
+		font-size: 22px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.wrapper {
+		gap: 40px;
+	}
+
+	.title {
+		font-size: 70px;
+	}
+
+	.leftContent {
+		width: 40%;
+	}
+
+	.toad {
+		width: 45%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.title {
+		font-size: 60px;
+		letter-spacing: 10px;
+	}
+
+	.leftContent {
+		gap: 50px;
+	}
+
+	.text {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.button {
+		width: 222px;
+		height: 49px;
+	}
+
+	.button p {
+		font-size: 16px;
+	}
+
+	.toad {
+		width: 35%;
+	}
+}
+
+@media (max-width: 800px) {
+	.title {
+		font-size: 50px;
+	}
+
+	.text {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 700px) {
+	.wrapper {
+		gap: 10px;
+	}
+
+	.mainContent {
+		flex-direction: column;
+		padding: 0 24px;
+	}
+
+	.leftContent {
+		width: 80%;
+		gap: 30px;
+	}
+
+	.textWrapper {
+		gap: 20px;
+	}
+
+	.text {
+		text-align: center;
+	}
+
+	.toad {
+		width: 70%;
+	}
+
+	.background {
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.button {
+		width: 270px;
+		height: 50px;
+	}
+
+	.button p {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 485px) {
+	.leftContent {
+		width: 100%;
+	}
+
+	.toad {
+		width: 80%;
+	}
+}
+
+@media (max-width: 450px) {
+	.title {
+		font-size: 35px;
+		letter-spacing: 7px;
+	}
+
+	.textWrapper {
+		gap: 10px;
+	}
+
+	.text {
+		font-size: 13px;
+	}
+
+	.toad {
+		width: 90%;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
+	}
 }

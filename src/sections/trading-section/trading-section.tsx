@@ -8,7 +8,7 @@ export const TradingSection = () => {
 		<section className={styles.wrapper}>
 			<p className={clsx(styles.title, quantumFont.className)}>Trading</p>
 			<div className={styles.mainContent}>
-				<div className={styles.rightContent}>
+				<div className={styles.leftContent}>
 					<div className={styles.textWrapper}>
 						<p className={styles.text}>
 							The404.io is dedicated to transforming illiquid NFTs

@@ -230,6 +230,15 @@
 		width: 100%;
 		padding-top: 0;
 	}
+
+	.button {
+		width: 270px;
+		height: 50px;
+	}
+
+	.button p {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 650px) {
@@ -280,5 +289,14 @@
 	.text {
 		font-size: 13px;
 		line-height: 18px;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
 	}
 }
