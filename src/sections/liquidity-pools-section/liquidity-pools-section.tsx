@@ -8,12 +8,12 @@ export const LiquidityPoolsSection = () => {
 		<section className={styles.wrapper}>
 			<div className={styles.content}>
 				<p className={clsx(styles.title, quantumFont.className)}>
-					Liquidity pools
+					Liquidity <br /> pools
 				</p>
 				<div className={styles.mainContent}>
 					<div className={styles.leftContent}>
 						<div className={styles.textWrapper}>
-							<div>
+							<div className={styles.paragraphWrapper}>
 								<p className={styles.textTitle}>
 									Rewards for Staking:
 								</p>
@@ -26,7 +26,7 @@ export const LiquidityPoolsSection = () => {
 									liquidity for trading on the platform.
 								</p>
 							</div>
-							<div>
+							<div className={styles.paragraphWrapper}>
 								<p className={styles.textTitle}>
 									Comment Yield Generation:
 								</p>
