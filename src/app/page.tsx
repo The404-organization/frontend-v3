@@ -3,6 +3,7 @@ import { LiquidityPoolsSection } from '@/sections/liquidity-pools-section/liquid
 import { MissionSection } from '@/sections/mission-section/mission-section';
 import { TradingSection } from '@/sections/trading-section/trading-section';
 import { WelcomeSection } from '@/sections/welcome-section/welcome-section';
+import { Why404Section } from '@/sections/why-404-section/why-404-section';
 
 const HomePage = () => {
 	return (
@@ -12,6 +13,7 @@ const HomePage = () => {
 			<FactionalizationSection />
 			<TradingSection />
 			<LiquidityPoolsSection />
+			<Why404Section />
 		</main>
 	);
 };

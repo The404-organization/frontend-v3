@@ -1,0 +1,30 @@
+.wrapper {
+	height: 96px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.04);
+	background: #0b1d33;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 10px;
+}
+
+.key {
+	color: #a4b4c3;
+	text-align: center;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: -0.68px;
+}
+
+.value {
+	text-align: center;
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}

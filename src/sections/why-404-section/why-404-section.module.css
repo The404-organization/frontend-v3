@@ -1,0 +1,77 @@
+.wrapper {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 142px;
+}
+
+.background {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	width: 100vw;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title {
+	font-size: 100px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	background: linear-gradient(268deg, #5df5ff 18.11%, #ff8fff 82.55%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.mainContent {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 894px;
+	flex-shrink: 1;
+	margin-right: -100px;
+}
+
+.rightContent {
+	width: 540px;
+}
+
+.textContent {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	margin-bottom: 80px;
+}
+
+.text {
+	color: #a4b4c3;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 34px;
+}
+
+.bold {
+	font-weight: 800;
+}
+
+.button {
+	width: 291px;
+	margin: 0 auto;
+}
+
+.achievements {
+	gap: 16px;
+	margin: 0 auto;
+	width: calc(100vw - 180px);
+	display: flex;
+	align-items: center;
+}
