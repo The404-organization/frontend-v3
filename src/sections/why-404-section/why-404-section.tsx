@@ -13,7 +13,7 @@ export const Why404Section = () => {
 				src="/why-404-section/background.png"
 			/>
 			<p className={clsx(styles.title, quantumFont.className)}>
-				WHY ERC-404
+				WHY <span className={styles.notBreak}>ERC-404</span>
 			</p>
 			<div className={styles.mainContent}>
 				<img className={styles.logo} src="/why-404-section/logo.png" />
@@ -43,7 +43,13 @@ export const Why404Section = () => {
 			</div>
 			<div className={styles.achievements}>
 				{ACHIEVEMENTS.map((achievement, index) => (
-					<Achievement {...achievement} key={achievement.valueKey} />
+					<Achievement
+						valueClassName={
+							index === 0 ? styles.smallAchievementValueText : ''
+						}
+						{...achievement}
+						key={achievement.valueKey}
+					/>
 				))}
 			</div>
 		</section>

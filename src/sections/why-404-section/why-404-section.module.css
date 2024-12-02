@@ -30,6 +30,10 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.notBreak {
+	white-space: nowrap;
+}
+
 .mainContent {
 	display: flex;
 	align-items: center;
@@ -74,4 +78,211 @@
 	width: calc(100vw - 180px);
 	display: flex;
 	align-items: center;
+}
+
+@media (max-width: 1750px) {
+	.smallAchievementValueText {
+		font-size: 33px;
+	}
+}
+
+@media (max-width: 1620px) {
+	.logo {
+		width: 700px;
+		margin-right: 0;
+	}
+
+	.textContent {
+		gap: 40px;
+	}
+}
+
+@media (max-width: 1550px) {
+	.smallAchievementValueText {
+		font-size: 29px;
+	}
+}
+
+@media (max-width: 1440px) {
+	.achievements {
+		gap: 10px;
+		width: calc(100vw - 150px);
+	}
+}
+
+@media (max-width: 1400px) {
+	.smallAchievementValueText {
+		font-size: 27px;
+	}
+}
+
+@media (max-width: 1350px) {
+	.title {
+		font-size: 86px;
+		letter-spacing: 17.2px;
+	}
+
+	.rightContent {
+		width: 450px;
+	}
+
+	.text {
+		color: #a4b4c3;
+		font-size: 22px;
+		line-height: 34px;
+	}
+}
+
+@media (max-width: 1280px) {
+	.achievements {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media (max-width: 1200px) {
+	.title {
+		font-size: 65px;
+		letter-spacing: 10px;
+	}
+
+	.mainContent {
+		margin: 30px auto;
+	}
+
+	.logo {
+		width: 600px;
+	}
+
+	.textContent {
+		gap: 30px;
+		margin-bottom: 50px;
+	}
+
+	.text {
+		font-size: 20px;
+	}
+
+	.button {
+		width: 222px;
+		height: 49px;
+	}
+
+	.button p {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.mainContent {
+		justify-content: center;
+	}
+
+	.logo {
+		margin: 0 -50px;
+	}
+
+	.rightContent {
+		width: 40%;
+	}
+}
+
+@media (max-width: 950px) {
+	.mainContent {
+		gap: 30px;
+		margin: 60px auto;
+	}
+
+	.logo {
+		width: 50%;
+	}
+}
+
+@media (max-width: 850px) {
+	.title {
+		font-size: 55px;
+	}
+
+	.rightContent {
+		width: 50%;
+	}
+
+	.achievements {
+		width: calc(100% - 80px);
+	}
+}
+
+@media (max-width: 768px) {
+	.title {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 700px) {
+	.title {
+		text-align: center;
+		margin-right: -15px;
+		max-width: 90%;
+	}
+
+	.mainContent {
+		flex-direction: column-reverse;
+		gap: 0;
+		margin: 50px 0 0 0;
+	}
+
+	.rightContent {
+		width: 80%;
+		text-align: center;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 0 0 -30px 0;
+	}
+
+	.textContent {
+		gap: 15px;
+	}
+
+	.text {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.achievements {
+		grid-template-columns: 1fr;
+		width: 280px;
+	}
+
+	.smallAchievementValueText {
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 450px) {
+	.title {
+		font-size: 35px;
+	}
+
+	.mainContent {
+		margin: 35px 0 0 0;
+	}
+
+	.rightContent {
+		width: 90%;
+	}
+
+	.text {
+		font-size: 15px;
+	}
+
+	.button {
+		width: 200px;
+		height: 33px;
+	}
+
+	.button p {
+		font-size: 15px;
+	}
 }

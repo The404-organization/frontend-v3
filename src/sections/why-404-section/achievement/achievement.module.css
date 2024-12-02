@@ -28,3 +28,33 @@
 	font-weight: 600;
 	line-height: normal;
 }
+
+@media (max-width: 1890px) {
+	.wrapper {
+		height: 125px;
+	}
+}
+
+@media (max-width: 1400px) {
+	.wrapper {
+		height: 110px;
+	}
+
+	.key {
+		font-size: 15px;
+	}
+
+	.value {
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 700px) {
+	.key {
+		font-size: 17px;
+	}
+
+	.value {
+		font-size: 38px;
+	}
+}
