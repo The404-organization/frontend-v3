@@ -17,23 +17,23 @@ export const ContactUsSection = () => {
 			</p>
 			<div className={styles.schema}>
 				<div className={styles.schemaItemBlock}>
-					<MainIcon />
+					<MainIcon className={styles.schemaIcon} />
 					<div>
 						<p className={styles.schemaText}>company@gmail.com</p>
 						<p className={styles.schemaText}>infoweb@gmail.com</p>
 					</div>
 				</div>
-				<ArrowsIcon />
+				<ArrowsIcon className={styles.arrowIcon} />
 				<div className={styles.schemaItemBlock}>
-					<PhoneIcon />
+					<PhoneIcon className={styles.schemaIcon} />
 					<div>
 						<p className={styles.schemaText}>+84 0977425031</p>
 						<p className={styles.schemaText}>+998 765 775 34</p>
 					</div>
 				</div>
-				<ArrowsIcon />
+				<ArrowsIcon className={styles.arrowIcon} />
 				<div className={styles.schemaItemBlock}>
-					<LocationIcon />
+					<LocationIcon className={styles.schemaIcon} />
 					<div>
 						<p className={styles.schemaText}>
 							State/province/area:

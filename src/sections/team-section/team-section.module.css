@@ -185,6 +185,7 @@
 
 @media (max-width: 900px) {
 	.content {
+		margin: 0 auto 50px auto;
 		padding: 60px 0 80px 0;
 	}
 

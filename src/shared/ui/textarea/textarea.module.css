@@ -10,3 +10,10 @@
 	padding: 20px;
 	outline: none;
 }
+
+@media (max-width: 1100px) {
+	.textarea {
+		font-size: 13px;
+		height: 120px;
+	}
+}

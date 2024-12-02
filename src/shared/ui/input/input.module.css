@@ -10,3 +10,10 @@
 	padding: 0 20px;
 	outline: none;
 }
+
+@media (max-width: 1100px) {
+	.input {
+		height: 45px;
+		font-size: 14px;
+	}
+}
