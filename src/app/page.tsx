@@ -1,3 +1,4 @@
+import { ContactUsSection } from '@/sections/contact-us-section/contact-us-section';
 import { FactionalizationSection } from '@/sections/fractionalization-section/fractionalization-section';
 import { LiquidityPoolsSection } from '@/sections/liquidity-pools-section/liquidity-pools-section';
 import { MissionSection } from '@/sections/mission-section/mission-section';
@@ -16,6 +17,7 @@ const HomePage = () => {
 			<LiquidityPoolsSection />
 			<Why404Section />
 			<TeamSection />
+			<ContactUsSection />
 		</main>
 	);
 };
