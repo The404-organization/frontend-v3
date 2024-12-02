@@ -31,7 +31,7 @@ export const Why404Section = () => {
 							experience.
 						</p>
 						<p className={clsx(styles.text, styles.bold)}>
-							Here's a detailed look at the key features and
+							Here&apos;s a detailed look at the key features and
 							benefits of ERC-404.
 						</p>
 					</div>

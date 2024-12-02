@@ -17,6 +17,7 @@ export const TeamSection = () => {
 				<div className={styles.members}>
 					{MEMBERS.map(member => (
 						<div
+							key={member.name}
 							className={styles.member}
 							style={{
 								background: `linear-gradient(#142841, #142841) padding-box, linear-gradient(0deg, ${member.color(0.5)} 0%, ${member.color(0)} 100%) border-box`,
