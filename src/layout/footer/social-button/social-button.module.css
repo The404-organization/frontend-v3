@@ -22,3 +22,17 @@
 .button:hover .icon path {
 	fill: #0b1d33;
 }
+
+@media (max-width: 1000px) {
+	.button {
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media (max-width: 768px) {
+	.button {
+		width: 45px;
+		height: 45px;
+	}
+}

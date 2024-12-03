@@ -43,3 +43,21 @@
 .subscribeButton:active {
 	opacity: 0.6;
 }
+
+@media (max-width: 1000px) {
+	.wrapper {
+		height: 55px;
+		margin-top: 40px;
+	}
+
+	.subscribeButton {
+		height: 55px;
+		width: 55px;
+	}
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		margin-top: 20px;
+	}
+}
