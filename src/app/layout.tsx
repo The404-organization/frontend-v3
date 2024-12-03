@@ -1,3 +1,4 @@
+import { Footer } from '@/layout/footer/footer';
 import { Header } from '@/layout/header/header';
 import { outfitFont } from '@/shared/ui/fonts';
 import { ReactNode } from 'react';
@@ -9,6 +10,7 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
 			<body className={outfitFont.className}>
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
