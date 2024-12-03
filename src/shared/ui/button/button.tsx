@@ -4,14 +4,21 @@ import { ButtonProps } from './button.props';
 
 export const Button = ({
 	label,
+	loading,
 	wrapperClassName,
 	buttonClassName,
+	loaderClassName,
+	...props
 }: ButtonProps) => {
 	return (
-		<div className={clsx(styles.wrapper, wrapperClassName)}>
+		<button className={clsx(styles.wrapper, wrapperClassName)} {...props}>
 			<div className={clsx(styles.button, buttonClassName)}>
-				<p className={styles.label}>{label}</p>
+				{loading ? (
+					<div className={clsx(styles.loader, loaderClassName)} />
+				) : (
+					<p className={styles.label}>{label}</p>
+				)}
 			</div>
-		</div>
+		</button>
 	);
 };

@@ -2,11 +2,9 @@ import { ArrowsIcon } from '@/assets/icons/arrows-icon';
 import { LocationIcon } from '@/assets/icons/location-icon';
 import { MainIcon } from '@/assets/icons/main-icon';
 import { PhoneIcon } from '@/assets/icons/phone-icon';
-import { Button } from '@/shared/ui/button/button';
 import { poppinsFont } from '@/shared/ui/fonts';
-import { Input } from '@/shared/ui/input/input';
-import { Textarea } from '@/shared/ui/textarea/textarea';
 import clsx from 'clsx';
+import { ContactUsForm } from './contact-us-form/contact-us-form';
 import styles from './contact-us-section.module.css';
 
 export const ContactUsSection = () => {
@@ -42,26 +40,7 @@ export const ContactUsSection = () => {
 					</div>
 				</div>
 			</div>
-			<div className={styles.formWrapper}>
-				<img
-					className={styles.background}
-					src="/contact-us-section/background.png"
-					alt=""
-				/>
-				<Input
-					className={styles.nameInput}
-					placeholder="Enter you name"
-				/>
-				<Input
-					className={styles.emailInput}
-					placeholder="Enter you email"
-				/>
-				<Textarea
-					className={styles.messageInput}
-					placeholder="Enter you message"
-				/>
-				<Button label="Send message" wrapperClassName={styles.button} />
-			</div>
+			<ContactUsForm />
 		</section>
 	);
 };
