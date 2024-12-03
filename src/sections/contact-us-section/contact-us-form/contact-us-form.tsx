@@ -25,18 +25,15 @@ export const ContactUsForm = () => {
 		formikHelpers: FormikHelpers<Values>,
 	) => {
 		try {
-			await fetch('https://api.hubapi.com/crm/v3/objects/contacts', {
+			await fetch('/api/submit-form', {
 				method: 'POST',
 				headers: {
-					Authorization: `Bearer ${process.env.NEXT_PUBLIC_HUBSPOT_KEY}`,
 					'Content-Type': 'application/json',
 				},
 				body: JSON.stringify({
-					properties: {
-						name: values.name,
-						email: values.email,
-						message: values.message,
-					},
+					name: values.name,
+					email: values.email,
+					message: values.message,
 				}),
 			});
 		} catch (error) {
