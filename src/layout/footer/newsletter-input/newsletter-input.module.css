@@ -36,6 +36,17 @@
 	background: linear-gradient(180deg, #5df5ff 0%, #1d74ff 100%);
 }
 
+.loader {
+	height: 30px;
+	width: 30px;
+	border: 5px solid #fff;
+	border-bottom-color: transparent;
+	border-radius: 50%;
+	display: inline-block;
+	box-sizing: border-box;
+	animation: rotation 1s linear infinite;
+}
+
 .subscribeButton:hover {
 	opacity: 0.8;
 }
@@ -59,5 +70,14 @@
 @media (max-width: 768px) {
 	.wrapper {
 		margin-top: 20px;
+	}
+}
+
+@keyframes rotation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
 	}
 }
