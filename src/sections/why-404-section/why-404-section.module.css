@@ -13,7 +13,7 @@
 	bottom: 0;
 	right: 0;
 	z-index: -1;
-	width: 100vw;
+	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
@@ -75,7 +75,7 @@
 .achievements {
 	gap: 16px;
 	margin: 0 auto;
-	width: calc(100vw - 180px);
+	width: calc(100% - 180px);
 	display: flex;
 	align-items: center;
 }
