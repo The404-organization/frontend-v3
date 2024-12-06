@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import { outfitFont } from '../fonts';
 import styles from './button.module.css';
 import { ButtonProps } from './button.props';
 
@@ -16,7 +17,9 @@ export const Button = ({
 				{loading ? (
 					<div className={clsx(styles.loader, loaderClassName)} />
 				) : (
-					<p className={styles.label}>{label}</p>
+					<p className={clsx(styles.label, outfitFont.className)}>
+						{label}
+					</p>
 				)}
 			</div>
 		</button>

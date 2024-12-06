@@ -1,6 +1,8 @@
 'use client';
 
 import { SubscribeIcon } from '@/assets/icons/subscribe-icon';
+import { outfitFont } from '@/shared/ui/fonts';
+import clsx from 'clsx';
 import { Field, Form, Formik, FormikHelpers } from 'formik';
 import * as Yup from 'yup';
 import styles from './newsletter-input.module.css';
@@ -46,7 +48,7 @@ export const NewsletterInput = () => {
 						id="email"
 						name="email"
 						placeholder="Your Email"
-						className={styles.input}
+						className={clsx(styles.input, outfitFont.className)}
 					/>
 					<button className={styles.subscribeButton} type="submit">
 						{isSubmitting ? (
