@@ -82,7 +82,7 @@
 
 @media (max-width: 1750px) {
 	.smallAchievementValueText {
-		font-size: 33px;
+		font-size: 33px !important;
 	}
 }
 
@@ -99,7 +99,7 @@
 
 @media (max-width: 1550px) {
 	.smallAchievementValueText {
-		font-size: 29px;
+		font-size: 29px !important;
 	}
 }
 
@@ -112,7 +112,7 @@
 
 @media (max-width: 1400px) {
 	.smallAchievementValueText {
-		font-size: 27px;
+		font-size: 27px !important;
 	}
 }
 
@@ -264,7 +264,7 @@
 	}
 
 	.smallAchievementValueText {
-		font-size: 38px;
+		font-size: 38px !important;
 	}
 }
 
