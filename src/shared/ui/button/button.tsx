@@ -18,8 +18,7 @@ export const Button = ({
 			<Link
 				href={link}
 				target="_blank"
-				className={clsx(styles.wrapper, wrapperClassName)}
-				{...(props as any)}>
+				className={clsx(styles.wrapper, wrapperClassName)}>
 				<div className={clsx(styles.button, buttonClassName)}>
 					<p className={clsx(styles.label, outfitFont.className)}>
 						{label}
