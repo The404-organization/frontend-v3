@@ -1,5 +1,5 @@
-import { Button } from '@/shared/ui/button/button';
 import { quantumFont } from '@/shared/ui/fonts';
+import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
 import clsx from 'clsx';
 import styles from './liquidity-pools-section.module.css';
 
@@ -38,10 +38,7 @@ export const LiquidityPoolsSection = () => {
 								</p>
 							</div>
 						</div>
-						<Button
-							wrapperClassName={styles.button}
-							label="Purchase Tokens"
-						/>
+						<WhitePaperButton />
 					</div>
 					<div className={styles.image} />
 				</div>

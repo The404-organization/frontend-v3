@@ -1,0 +1,37 @@
+.button {
+	width: 291px !important;
+	display: block !important;
+}
+
+@media (max-width: 1000px) {
+	.button {
+		width: 180px !important;
+		height: 50px !important;
+	}
+
+	.button p {
+		font-size: 16px !important;
+	}
+}
+
+@media (max-width: 700px) {
+	.button {
+		width: 207px !important;
+		height: 42px !important;
+	}
+
+	.button p {
+		font-size: 20px !important;
+	}
+}
+
+@media (max-width: 450px) {
+	.button {
+		width: 200px !important;
+		height: 33px !important;
+	}
+
+	.button p {
+		font-size: 15px !important;
+	}
+}

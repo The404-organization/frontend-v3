@@ -61,10 +61,6 @@
 	line-height: 34px;
 }
 
-.button {
-	width: 291px;
-}
-
 @media (max-width: 1700px) {
 	.content {
 		width: 1450px;
@@ -152,15 +148,6 @@
 	.text {
 		font-size: 20px;
 	}
-
-	.button {
-		width: 222px;
-		height: 49px;
-	}
-
-	.button p {
-		font-size: 16px;
-	}
 }
 
 @media (max-width: 1050px) {
@@ -230,15 +217,6 @@
 		width: 100%;
 		padding-top: 0;
 	}
-
-	.button {
-		width: 270px;
-		height: 50px;
-	}
-
-	.button p {
-		font-size: 20px;
-	}
 }
 
 @media (max-width: 650px) {
@@ -258,11 +236,6 @@
 
 	.text {
 		font-size: 15px;
-	}
-
-	.button {
-		width: 207px;
-		height: 42px;
 	}
 }
 
@@ -289,14 +262,5 @@
 	.text {
 		font-size: 12px;
 		line-height: 18px;
-	}
-
-	.button {
-		width: 200px;
-		height: 33px;
-	}
-
-	.button p {
-		font-size: 15px;
 	}
 }

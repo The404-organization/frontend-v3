@@ -1,5 +1,5 @@
-import { Button } from '@/shared/ui/button/button';
 import { poppinsFont } from '@/shared/ui/fonts';
+import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
 import clsx from 'clsx';
 import styles from './welcome-section.module.css';
 
@@ -27,10 +27,7 @@ export const WelcomeSection = () => {
 					<p className={clsx(styles.subtitle, poppinsFont.className)}>
 						Convert High-Value NFTs Into Fractional-Erc-404 Tokens
 					</p>
-					<Button
-						wrapperClassName={styles.button}
-						label="Purchase Tokens"
-					/>
+					<WhitePaperButton />
 				</div>
 			</div>
 		</section>

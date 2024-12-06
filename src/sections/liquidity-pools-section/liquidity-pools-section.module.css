@@ -65,10 +65,6 @@
 	flex-direction: column;
 }
 
-.button {
-	width: 291px;
-}
-
 .image {
 	background-image: url('/liquidity-pools-section/dollar.png');
 	background-repeat: no-repeat;
@@ -231,15 +227,6 @@
 	.image {
 		margin-bottom: -250px;
 	}
-
-	.button {
-		width: 270px;
-		height: 50px;
-	}
-
-	.button p {
-		font-size: 20px;
-	}
 }
 
 @media (max-width: 700px) {
@@ -319,14 +306,5 @@
 	.text {
 		font-size: 15px;
 		line-height: 22px;
-	}
-
-	.button {
-		width: 200px;
-		height: 33px;
-	}
-
-	.button p {
-		font-size: 15px;
 	}
 }

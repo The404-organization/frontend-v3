@@ -68,10 +68,6 @@
 	line-height: 34px;
 }
 
-.button {
-	width: 291px;
-}
-
 .god {
 	width: 861px;
 	margin-left: -250px;
@@ -212,15 +208,6 @@
 	.textWrapper {
 		gap: 40px;
 	}
-
-	.button {
-		width: 180px;
-		height: 50px;
-	}
-
-	.button p {
-		font-size: 16px !important;
-	}
 }
 
 @media (max-width: 900px) {
@@ -280,15 +267,6 @@
 	.god {
 		margin: 0 auto;
 	}
-
-	.button {
-		width: 207px;
-		height: 42px;
-	}
-
-	.button p {
-		font-size: 20px;
-	}
 }
 
 @media (max-width: 450px) {
@@ -313,14 +291,5 @@
 	.god {
 		width: 280px;
 		height: 228px;
-	}
-
-	.button {
-		width: 200px;
-		height: 33px;
-	}
-
-	.button p {
-		font-size: 15px;
 	}
 }

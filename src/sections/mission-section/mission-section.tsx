@@ -1,5 +1,5 @@
-import { Button } from '@/shared/ui/button/button';
 import { quantumFont } from '@/shared/ui/fonts';
+import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
 import clsx from 'clsx';
 import styles from './mission-section.module.css';
 
@@ -29,11 +29,7 @@ export const MissionSection = () => {
 								opportunities for earning and trading.
 							</p>
 						</div>
-						<Button
-							link="https://404-project.gitbook.io/404-lite-paper/"
-							wrapperClassName={styles.button}
-							label="White paper"
-						/>
+						<WhitePaperButton />
 					</div>
 				</div>
 				<img

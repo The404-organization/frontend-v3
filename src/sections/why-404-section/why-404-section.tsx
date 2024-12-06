@@ -1,5 +1,5 @@
-import { Button } from '@/shared/ui/button/button';
 import { quantumFont } from '@/shared/ui/fonts';
+import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
 import clsx from 'clsx';
 import { Achievement } from './achievement/achievement';
 import { ACHIEVEMENTS } from './why-404-section.constants';
@@ -35,10 +35,7 @@ export const Why404Section = () => {
 							benefits of ERC-404.
 						</p>
 					</div>
-					<Button
-						wrapperClassName={styles.button}
-						label="Purchase Tokens"
-					/>
+					<WhitePaperButton />
 				</div>
 			</div>
 			<div className={styles.achievements}>

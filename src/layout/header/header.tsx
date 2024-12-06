@@ -47,9 +47,10 @@ export const Header = () => {
 				/>
 			</nav>
 			<Button
+				link={process.env.NEXT_PUBLIC_WHITE_PAPER}
 				wrapperClassName={styles.buttonWrapper}
 				buttonClassName={styles.buttonContent}
-				label="Buy now"
+				label="White paper"
 			/>
 		</header>
 	);

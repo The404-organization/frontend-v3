@@ -1,5 +1,5 @@
-import { Button } from '@/shared/ui/button/button';
 import { quantumFont } from '@/shared/ui/fonts';
+import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
 import clsx from 'clsx';
 import { ContentNet } from './content-net/content-net';
 import styles from './fractionalization-section.module.css';
@@ -29,10 +29,7 @@ export const FactionalizationSection = () => {
 								enabling the purchase of smaller NFT portions.
 							</p>
 						</div>
-						<Button
-							wrapperClassName={styles.button}
-							label="Purchase Tokens"
-						/>
+						<WhitePaperButton />
 					</div>
 				</div>
 			</div>
