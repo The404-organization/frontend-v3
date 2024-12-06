@@ -5,7 +5,7 @@ import styles from './mission-section.module.css';
 
 export const MissionSection = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="mission">
 			<div className={styles.blur} />
 			<img src="/common/circle.png" className={styles.largeCircle} />
 			<img src="/common/circle.png" className={styles.smallCircle} />

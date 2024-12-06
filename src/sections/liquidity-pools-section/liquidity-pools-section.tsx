@@ -5,7 +5,7 @@ import styles from './liquidity-pools-section.module.css';
 
 export const LiquidityPoolsSection = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="liquidity-pools">
 			<div className={styles.content}>
 				<p className={clsx(styles.title, quantumFont.className)}>
 					Liquidity <br /> pools

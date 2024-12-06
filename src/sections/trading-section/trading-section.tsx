@@ -5,7 +5,7 @@ import styles from './trading-section.module.css';
 
 export const TradingSection = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="trading">
 			<p className={clsx(styles.title, quantumFont.className)}>Trading</p>
 			<div className={styles.mainContent}>
 				<div className={styles.leftContent}>

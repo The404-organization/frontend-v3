@@ -6,7 +6,7 @@ import styles from './fractionalization-section.module.css';
 
 export const FactionalizationSection = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="fractionalization">
 			<div className={styles.content} id="factionalization-content">
 				<ContentNet />
 				<p className={clsx(styles.title, quantumFont.className)}>

@@ -7,7 +7,7 @@ import styles from './why-404-section.module.css';
 
 export const Why404Section = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="why-404">
 			<img
 				className={styles.background}
 				src="/why-404-section/background.png"

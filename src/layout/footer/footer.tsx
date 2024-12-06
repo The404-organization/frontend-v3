@@ -1,3 +1,5 @@
+'use client';
+
 import { LogoIcon } from '@/assets/icons/logo';
 import {
 	DiscordIcon,
@@ -14,12 +16,29 @@ import { NewsletterInput } from './newsletter-input/newsletter-input';
 import { SocialButton } from './social-button/social-button';
 
 export const Footer = () => {
+	const handleScrollToSection = (sectionId: string) => {
+		const section = document.getElementById(sectionId);
+
+		if (section) {
+			section.scrollIntoView({
+				block: 'start',
+				behavior: 'smooth',
+			});
+		}
+	};
+
+	const handleScrollTop = () => {
+		window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+	};
+
 	return (
 		<footer className={styles.wrapper}>
 			<div className={styles.footer}>
 				<div className={styles.topLineWrapper}>
 					<div className={styles.line} />
-					<button className={styles.scrollButton}>
+					<button
+						className={styles.scrollButton}
+						onClick={handleScrollTop}>
 						<TopArrowIcon className={styles.topArrowIcon} />
 					</button>
 				</div>
@@ -49,12 +68,40 @@ export const Footer = () => {
 					</div>
 				</div>
 				<div className={styles.links}>
-					<p className={styles.text}>Mission</p>
-					<p className={styles.text}>Fractionalization</p>
-					<p className={styles.text}>Trading</p>
-					<p className={styles.text}>Liquidity pools</p>
-					<p className={styles.text}>Why erc-404</p>
-					<p className={styles.text}>Team</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() => handleScrollToSection('mission')}>
+						Mission
+					</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() =>
+							handleScrollToSection('fractionalization')
+						}>
+						Fractionalization
+					</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() => handleScrollToSection('trading')}>
+						Trading
+					</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() =>
+							handleScrollToSection('liquidity-pools')
+						}>
+						Liquidity pools
+					</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() => handleScrollToSection('why-404')}>
+						Why erc-404
+					</p>
+					<p
+						className={clsx(styles.text, styles.link)}
+						onClick={() => handleScrollToSection('team')}>
+						Team
+					</p>
 				</div>
 				<div className={styles.newsletterBlock}>
 					<p

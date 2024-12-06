@@ -5,7 +5,7 @@ import styles from './team-section.module.css';
 
 export const TeamSection = () => {
 	return (
-		<section className={styles.wrapper}>
+		<section className={styles.wrapper} id="team">
 			<div className={styles.content}>
 				<img
 					src="/team-section/background.png"

@@ -1,12 +1,11 @@
-import Link from 'next/link';
 import styles from './menu-link.module.css';
 import { MenuLinkProps } from './menu-link.props';
 
-export const MenuLink = ({ label, link }: MenuLinkProps) => {
+export const MenuLink = ({ label, onClick }: MenuLinkProps) => {
 	return (
-		<Link href={link} className={styles.wrapper}>
+		<div className={styles.wrapper} onClick={onClick}>
 			<p className={styles.label}>{label}</p>
 			<div className={styles.line} />
-		</Link>
+		</div>
 	);
 };
