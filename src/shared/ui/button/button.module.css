@@ -5,6 +5,7 @@
 	transition: 0.3s all;
 	height: 64px;
 	border: none;
+	text-decoration: none;
 	background: linear-gradient(90deg, #1d74ff, #040c15, #1d74ff);
 }
 

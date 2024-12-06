@@ -30,6 +30,7 @@ export const MissionSection = () => {
 							</p>
 						</div>
 						<Button
+							link="https://404-project.gitbook.io/404-lite-paper/"
 							wrapperClassName={styles.button}
 							label="White paper"
 						/>
