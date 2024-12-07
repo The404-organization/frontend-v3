@@ -96,6 +96,11 @@
 		padding-bottom: 40px;
 	}
 
+	.leftContent {
+		width: 450px;
+		margin-right: -50px;
+	}
+
 	.image {
 		width: 813px;
 		height: 649px;
@@ -172,14 +177,14 @@
 
 	.text {
 		font-size: 18px;
-		line-height: 34px;
+		line-height: 30px;
 	}
 
 	.image {
 		width: 600px;
 		height: 393px;
 		margin-right: -60px;
-		margin-bottom: -50px;
+		margin-bottom: -100px;
 	}
 }
 
