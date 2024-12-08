@@ -6,7 +6,6 @@ import {
 	FacebookIcon,
 	TelegramIcon,
 	XIcon,
-	YouTubeIcon,
 } from '@/assets/icons/socials';
 import { TopArrowIcon } from '@/assets/icons/top-arrow-icon';
 import { poppinsFont } from '@/shared/ui/fonts';
@@ -48,17 +47,13 @@ export const Footer = () => {
 						We have a passion for NFTs and trading
 					</p>
 					<div className={styles.socials}>
-						<SocialButton
-							link="https://google.com"
-							icon={YouTubeIcon}
-						/>
 						<SocialButton link="https://google.com" icon={XIcon} />
 						<SocialButton
 							link="https://google.com"
 							icon={FacebookIcon}
 						/>
 						<SocialButton
-							link="https://google.com"
+							link="https://t.me/The404ioOfficial"
 							icon={TelegramIcon}
 						/>
 						<SocialButton
