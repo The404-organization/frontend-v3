@@ -78,7 +78,7 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 450px) {
 	.schema {
 		row-gap: 25px;
 		flex-wrap: wrap;
@@ -86,16 +86,10 @@
 	}
 
 	.schemaItemBlock {
-		width: 50%;
+		width: 100%;
 	}
 
 	.arrowIcon {
 		display: none;
-	}
-}
-
-@media (max-width: 450px) {
-	.schemaItemBlock {
-		width: 100%;
 	}
 }
