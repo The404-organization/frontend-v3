@@ -1,5 +1,5 @@
 import { quantumFont } from '@/shared/ui/fonts';
-import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
+import { LinkButton } from '@/shared/ui/link-button/link-button';
 import clsx from 'clsx';
 import styles from './liquidity-pools-section.module.css';
 
@@ -38,7 +38,10 @@ export const LiquidityPoolsSection = () => {
 								</p>
 							</div>
 						</div>
-						<WhitePaperButton />
+						<LinkButton
+							label="White paper"
+							url="https://404-project.gitbook.io/404-lite-paper/"
+						/>
 					</div>
 					<div className={styles.image} />
 				</div>

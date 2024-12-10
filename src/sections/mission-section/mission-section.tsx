@@ -1,5 +1,5 @@
 import { quantumFont } from '@/shared/ui/fonts';
-import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
+import { LinkButton } from '@/shared/ui/link-button/link-button';
 import clsx from 'clsx';
 import styles from './mission-section.module.css';
 
@@ -29,7 +29,10 @@ export const MissionSection = () => {
 								opportunities for earning and trading.
 							</p>
 						</div>
-						<WhitePaperButton />
+						<LinkButton
+							label="Join Telegram"
+							url="https://t.me/The404ioOfficial"
+						/>
 					</div>
 				</div>
 				<img

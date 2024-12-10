@@ -1,5 +1,5 @@
 import { quantumFont } from '@/shared/ui/fonts';
-import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
+import { LinkButton } from '@/shared/ui/link-button/link-button';
 import clsx from 'clsx';
 import { ContentNet } from './content-net/content-net';
 import styles from './fractionalization-section.module.css';
@@ -29,7 +29,10 @@ export const FactionalizationSection = () => {
 								enabling the purchase of smaller NFT portions.
 							</p>
 						</div>
-						<WhitePaperButton />
+						<LinkButton
+							label="White paper"
+							url="https://404-project.gitbook.io/404-lite-paper/"
+						/>
 					</div>
 				</div>
 			</div>

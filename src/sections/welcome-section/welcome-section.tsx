@@ -1,5 +1,5 @@
 import { poppinsFont } from '@/shared/ui/fonts';
-import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
+import { LinkButton } from '@/shared/ui/link-button/link-button';
 import clsx from 'clsx';
 import styles from './welcome-section.module.css';
 
@@ -27,7 +27,10 @@ export const WelcomeSection = () => {
 					<p className={clsx(styles.subtitle, poppinsFont.className)}>
 						Convert High-Value NFTs Into Fractional-Erc-404 Tokens
 					</p>
-					<WhitePaperButton />
+					<LinkButton
+						label="White paper"
+						url="https://404-project.gitbook.io/404-lite-paper/"
+					/>
 				</div>
 			</div>
 		</section>

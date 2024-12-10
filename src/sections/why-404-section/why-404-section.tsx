@@ -1,5 +1,5 @@
 import { quantumFont } from '@/shared/ui/fonts';
-import { WhitePaperButton } from '@/shared/ui/white-paper-button/white-paper-button';
+import { LinkButton } from '@/shared/ui/link-button/link-button';
 import clsx from 'clsx';
 import { Achievement } from './achievement/achievement';
 import { ACHIEVEMENTS } from './why-404-section.constants';
@@ -35,7 +35,10 @@ export const Why404Section = () => {
 							benefits of ERC-404.
 						</p>
 					</div>
-					<WhitePaperButton />
+					<LinkButton
+						label="Join Telegram"
+						url="https://t.me/The404ioOfficial"
+					/>
 				</div>
 			</div>
 			<div className={styles.achievements}>

@@ -41,10 +41,6 @@ export const Header = () => {
 					label="why erc-404"
 					onClick={() => handleScrollToSection('why-404')}
 				/>
-				<MenuLink
-					label="Team"
-					onClick={() => handleScrollToSection('team')}
-				/>
 			</nav>
 			<Button
 				link={process.env.NEXT_PUBLIC_WHITE_PAPER}

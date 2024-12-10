@@ -92,11 +92,6 @@ export const Footer = () => {
 						onClick={() => handleScrollToSection('why-404')}>
 						Why erc-404
 					</p>
-					<p
-						className={clsx(styles.text, styles.link)}
-						onClick={() => handleScrollToSection('team')}>
-						Team
-					</p>
 				</div>
 				<div className={styles.newsletterBlock}>
 					<p
@@ -107,8 +102,7 @@ export const Footer = () => {
 						Subscribe Newsletter
 					</p>
 					<p className={styles.text}>
-						Exerci tation ullamcorper suscipit lobortis nisl aliquip
-						ex ea commodo
+						Stay updated with our latest news
 					</p>
 					<NewsletterInput />
 				</div>
