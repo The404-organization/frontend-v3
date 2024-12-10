@@ -23,9 +23,6 @@ export const ContactUsSection = () => {
 				<div className={styles.schemaItemBlock}>
 					<LocationIcon className={styles.schemaIcon} />
 					<div>
-						<p className={styles.schemaText}>
-							State/province/area:
-						</p>
 						<p className={styles.schemaText}>Brooklyn NY</p>
 					</div>
 				</div>
