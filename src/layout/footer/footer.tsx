@@ -1,12 +1,7 @@
 'use client';
 
 import { LogoIcon } from '@/assets/icons/logo';
-import {
-	DiscordIcon,
-	FacebookIcon,
-	TelegramIcon,
-	XIcon,
-} from '@/assets/icons/socials';
+import { TelegramIcon, XIcon } from '@/assets/icons/socials';
 import { TopArrowIcon } from '@/assets/icons/top-arrow-icon';
 import { poppinsFont } from '@/shared/ui/fonts';
 import clsx from 'clsx';
@@ -49,16 +44,8 @@ export const Footer = () => {
 					<div className={styles.socials}>
 						<SocialButton link="https://google.com" icon={XIcon} />
 						<SocialButton
-							link="https://google.com"
-							icon={FacebookIcon}
-						/>
-						<SocialButton
 							link="https://t.me/The404ioOfficial"
 							icon={TelegramIcon}
-						/>
-						<SocialButton
-							link="https://google.com"
-							icon={DiscordIcon}
 						/>
 					</div>
 				</div>
