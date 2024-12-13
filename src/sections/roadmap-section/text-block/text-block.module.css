@@ -1,0 +1,47 @@
+.wrapper {
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 21px;
+}
+
+.title.purple {
+	color: #ff8fff;
+}
+
+.title.blue {
+	color: #5df5ff;
+}
+
+.textWrapper {
+	gap: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.text {
+	color: #a4b4c3;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.itemWrapper {
+	gap: 7px;
+	display: flex;
+	padding-left: 7px;
+	align-items: center;
+}
+
+.circle {
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #a4b4c3;
+}

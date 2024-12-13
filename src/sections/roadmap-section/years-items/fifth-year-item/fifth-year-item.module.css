@@ -1,0 +1,26 @@
+.wrapper {
+	position: absolute;
+	width: 420px;
+	height: 470px;
+}
+
+.textBlock {
+	width: 300px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.location {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+.arrow {
+	position: absolute;
+	left: 57px;
+	top: 8px;
+	z-index: 5;
+}

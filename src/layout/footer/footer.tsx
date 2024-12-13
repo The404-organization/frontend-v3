@@ -42,7 +42,10 @@ export const Footer = () => {
 						We have a passion for NFTs and trading
 					</p>
 					<div className={styles.socials}>
-						<SocialButton link="https://google.com" icon={XIcon} />
+						<SocialButton
+							link="https://x.com/the404io"
+							icon={XIcon}
+						/>
 						<SocialButton
 							link="https://t.me/The404ioOfficial"
 							icon={TelegramIcon}

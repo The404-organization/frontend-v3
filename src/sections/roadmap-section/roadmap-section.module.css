@@ -1,0 +1,55 @@
+.wrapper {
+	position: relative;
+	margin-bottom: 90px;
+	padding-top: 400px;
+}
+
+.image {
+	width: 90vw;
+	margin-left: 10vw;
+	right: 0;
+}
+
+.firstItem {
+	z-index: 10;
+	left: 173px;
+	bottom: 100px;
+}
+
+.secondItem {
+	z-index: 10;
+	left: 630px;
+	bottom: 380px;
+}
+
+.thirdItem {
+	z-index: 10;
+	left: 800px;
+	bottom: -30px;
+}
+
+.fourthItem {
+	z-index: 10;
+	left: 1176px;
+	bottom: 70px;
+}
+
+.fifthItem {
+	z-index: 10;
+	left: 1176px;
+	bottom: 726px;
+}
+
+.bottomBlur {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 160px;
+	background: linear-gradient(
+		180deg,
+		rgba(3, 11, 22, 0) 6.71%,
+		#030b16 89.27%
+	);
+}
