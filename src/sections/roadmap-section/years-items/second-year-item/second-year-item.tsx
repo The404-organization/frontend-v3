@@ -52,8 +52,8 @@ export const SecondYearItem = ({ className, ...props }: YearItemProps) => {
 				<path
 					d="M58.209 1.89258H26.9225C13.1154 1.89258 1.92246 13.0855 1.92246 26.8926V556.922"
 					stroke="#5DF5FF"
-					stroke-width="2"
-					stroke-linejoin="round"
+					strokeWidth="2"
+					strokeLinejoin="round"
 				/>
 			</svg>
 		</div>

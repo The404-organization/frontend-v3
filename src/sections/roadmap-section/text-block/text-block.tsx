@@ -15,11 +15,11 @@ export const TextBlock = ({
 			</p>
 			<div className={styles.textWrapper}>
 				{textItems.map(textItem => (
-					<div className={styles.textWrapper}>
+					<div key={textItem.title} className={styles.textWrapper}>
 						<p className={styles.text}>{textItem.title}</p>
 						<div>
 							{textItem.items.map(item => (
-								<div className={styles.itemWrapper}>
+								<div key={item} className={styles.itemWrapper}>
 									<div className={styles.circle} />
 									<p className={styles.text}>{item}</p>
 								</div>
