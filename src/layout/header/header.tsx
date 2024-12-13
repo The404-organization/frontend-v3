@@ -38,8 +38,12 @@ export const Header = () => {
 					onClick={() => handleScrollToSection('liquidity-pools')}
 				/>
 				<MenuLink
-					label="why erc-404"
+					label="Why erc-404"
 					onClick={() => handleScrollToSection('why-404')}
+				/>
+				<MenuLink
+					label="Roadmap"
+					onClick={() => handleScrollToSection('roadmap')}
 				/>
 			</nav>
 			<Button
