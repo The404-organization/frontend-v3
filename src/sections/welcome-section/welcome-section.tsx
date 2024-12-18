@@ -17,12 +17,9 @@ export const WelcomeSection = () => {
 				/>
 				<div className={styles.textContent}>
 					<p className={clsx(styles.title, poppinsFont.className)}>
-						Convert High-Value{' '}
-						<span className={styles.blue}>N</span>
+						404.io: Trade <span className={styles.blue}>N</span>
 						<span className={styles.violet}>F</span>
-						<span className={styles.pink}>T</span>s Into
-						Fractional-Erc-4<span className={styles.pink}>0</span>4
-						Tokens
+						<span className={styles.pink}>T</span>s Like Memes
 					</p>
 					<p className={clsx(styles.subtitle, poppinsFont.className)}>
 						Convert High-Value NFTs Into Fractional-Erc-404 Tokens
