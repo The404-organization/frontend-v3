@@ -17,7 +17,7 @@ export const WelcomeSection = () => {
 				/>
 				<div className={styles.textContent}>
 					<p className={clsx(styles.title, poppinsFont.className)}>
-						404.io: Trade <span className={styles.blue}>N</span>
+						Trade <span className={styles.blue}>N</span>
 						<span className={styles.violet}>F</span>
 						<span className={styles.pink}>T</span>s Like Memes
 					</p>
