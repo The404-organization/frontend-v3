@@ -115,7 +115,7 @@
 	}
 
 	.title {
-		font-size: 65px;
+		font-size: 85px;
 	}
 
 	.subtitle {
@@ -129,7 +129,7 @@
 	}
 
 	.title {
-		font-size: 60px;
+		font-size: 75px;
 	}
 
 	.subtitle {
@@ -155,8 +155,8 @@
 	}
 
 	.title {
-		font-size: 50px;
-		line-height: 150%;
+		font-size: 70px;
+		line-height: 120%;
 	}
 
 	.subtitle {
@@ -179,7 +179,7 @@
 	}
 
 	.title {
-		font-size: 45px;
+		font-size: 65px;
 	}
 
 	.subtitle {
@@ -209,7 +209,7 @@
 	}
 
 	.title {
-		font-size: 35px;
+		font-size: 55px;
 	}
 
 	.subtitle {
@@ -232,8 +232,8 @@
 	}
 
 	.title {
-		font-size: 31px;
-		line-height: 150%;
+		font-size: 50px;
+		line-height: 120%;
 	}
 
 	.subtitle {
@@ -260,6 +260,10 @@
 		align-items: center;
 	}
 
+	.title {
+		font-size: 60px;
+	}
+
 	.title,
 	.subtitle {
 		text-align: center;
@@ -276,7 +280,7 @@
 	}
 
 	.title {
-		font-size: 29px;
+		font-size: 50px;
 	}
 
 	.subtitle {
@@ -291,10 +295,6 @@
 
 	.monkey {
 		width: 270px;
-	}
-
-	.title {
-		font-size: 27px;
 	}
 
 	.subtitle {
@@ -316,6 +316,6 @@
 	}
 
 	.title {
-		font-size: 22px;
+		font-size: 40px;
 	}
 }
