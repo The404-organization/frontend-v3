@@ -44,11 +44,12 @@
 }
 
 .monkeyModel {
-	width: 1000px !important;
-	height: 1136px !important;
-	min-width: 1000px !important;
-	min-height: 1136px !important;
-	margin: -144px -162px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+	width: 713px !important;
+	height: 812px !important;
+	min-width: 713px !important;
+	min-height: 812px !important;
 }
 
 .textContent {
@@ -113,11 +114,10 @@
 	}
 
 	.monkeyModel {
-		width: 900px !important;
-		height: 1030px !important;
-		min-width: 900px !important;
-		min-height: 1030px !important;
-		margin: -150px -127.5px;
+		width: 645px !important;
+		height: 735px !important;
+		min-width: 645px !important;
+		min-height: 735px !important;
 	}
 }
 
@@ -131,11 +131,10 @@
 	}
 
 	.monkeyModel {
-		width: 840px !important;
-		height: 956px !important;
-		min-width: 840px !important;
-		min-height: 956px !important;
-		margin: -136px -120px;
+		width: 600px !important;
+		height: 683px !important;
+		min-width: 600px !important;
+		min-height: 683px !important;
 	}
 
 	.title {
@@ -165,11 +164,11 @@
 	}
 
 	.monkeyModel {
-		width: 770px !important;
-		height: 876px !important;
-		min-width: 770px !important;
-		min-height: 876px !important;
-		margin: -125px -110px;
+		padding-left: 0px;
+		width: 550px !important;
+		height: 626px !important;
+		min-width: 550px !important;
+		min-height: 626px !important;
 	}
 }
 
@@ -187,11 +186,10 @@
 	}
 
 	.monkeyModel {
-		width: 700px !important;
-		height: 798px !important;
-		min-width: 700px !important;
-		min-height: 798px !important;
-		margin: -114px -100px;
+		width: 500px !important;
+		height: 570px !important;
+		min-width: 500px !important;
+		min-height: 570px !important;
 	}
 
 	.title {
@@ -219,11 +217,11 @@
 	}
 
 	.monkeyModel {
-		width: 560px !important;
-		height: 718px !important;
-		min-width: 560px !important;
-		min-height: 718px !important;
-		margin: -102px -80px;
+		padding-right: -80px;
+		width: 400px !important;
+		height: 513px !important;
+		min-width: 400px !important;
+		min-height: 513px !important;
 	}
 
 	.title {
@@ -257,11 +255,11 @@
 	}
 
 	.monkeyModel {
-		width: 490px !important;
-		height: 672px !important;
-		min-width: 490px !important;
-		min-height: 672px !important;
-		margin: -96px -110px -96px -30px;
+		margin-right: -40px;
+		width: 350px !important;
+		height: 480px !important;
+		min-width: 350px !important;
+		min-height: 480px !important;
 	}
 
 	.title {
@@ -288,11 +286,11 @@
 	}
 
 	.monkeyModel {
-		width: 490px !important;
-		height: 630px !important;
-		min-width: 490px !important;
-		min-height: 630px !important;
-		margin: -90px -70px;
+		margin-right: 0;
+		width: 350px !important;
+		height: 450px !important;
+		min-width: 350px !important;
+		min-height: 450px !important;
 	}
 
 	.title {
@@ -362,11 +360,11 @@
 	}
 
 	.monkeyModel {
-		width: 378px !important;
-		height: 462px !important;
-		min-width: 378px !important;
-		min-height: 462px !important;
-		margin: -66px -54px;
+		margin-right: -50px;
+		width: 270px !important;
+		height: 330px !important;
+		min-width: 270px !important;
+		min-height: 330px !important;
 	}
 
 	.subtitle {

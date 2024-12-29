@@ -15,9 +15,7 @@ export const ModelRender = ({
 	textureSrc,
 	initialRotate,
 	scale,
-}: Pick<ModelProps, 'modelSrc' | 'textureSrc' | 'initialRotate' | 'scale'> & {
-	animationPlay: boolean;
-}) => {
+}: Pick<ModelProps, 'modelSrc' | 'textureSrc' | 'initialRotate' | 'scale'>) => {
 	const { animations: registeredAnimations } = useModelAnimation();
 	const group = useRef<Group>(null);
 	const { scene, animations } = useGLTF(modelSrc);

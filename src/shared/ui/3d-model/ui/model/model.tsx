@@ -3,7 +3,7 @@
 import { useElementPosition } from '@/shared/hooks/use-element-position';
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { LegacyRef, Suspense, useState } from 'react';
+import { LegacyRef, Suspense } from 'react';
 import { ErrorBoundary } from '../error-boundary/error-boundary';
 import { ModelRender } from '../model-render/model-render';
 import { Requirements } from '../requirements/requirements';
@@ -20,51 +20,21 @@ export const Model = ({
 	enableZoom,
 	defaultRender,
 	requirements,
-	animation,
 	canvasClassName,
 	canvasStyle,
 }: ModelProps) => {
 	const { elementRef, position } = useElementPosition();
-	const [animationPlay, setAnimationPlay] = useState<boolean>(
-		Boolean(animation?.enabled && animation?.startEvent === 'load'),
-	);
-
-	const handleMouseEnter = () => {
-		if (animation?.enabled && animation?.startEvent === 'hover') {
-			setAnimationPlay(true);
-		}
-	};
-
-	const handleMouseLeave = () => {
-		if (animation?.enabled && animation?.startEvent === 'hover') {
-			setAnimationPlay(false);
-		}
-	};
-
-	const handleClick = () => {
-		if (animation?.enabled && animation?.startEvent === 'click') {
-			setAnimationPlay(!animationPlay);
-		}
-	};
 
 	return (
 		<ErrorBoundary defaultRender={defaultRender}>
 			<Requirements
 				defaultRender={defaultRender}
 				requirements={requirements || []}>
-				<ScrollBlock
-					position={position}
-					onClick={handleClick}
-					onMouseEnter={handleMouseEnter}
-					onMouseLeave={handleMouseLeave}
-				/>
+				<ScrollBlock position={position} />
 				<Canvas
 					style={canvasStyle}
 					ref={elementRef as LegacyRef<HTMLCanvasElement>}
 					className={canvasClassName}
-					onClick={handleClick}
-					onMouseEnter={handleMouseEnter}
-					onMouseLeave={handleMouseLeave}
 					camera={{ position: [0, 0, 3] }}>
 					<ambientLight intensity={0.5} />
 					<directionalLight
@@ -77,7 +47,6 @@ export const Model = ({
 							modelSrc={modelSrc}
 							textureSrc={textureSrc}
 							initialRotate={initialRotate}
-							animationPlay={animationPlay}
 						/>
 					</Suspense>
 					<OrbitControls
