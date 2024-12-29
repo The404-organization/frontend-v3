@@ -19,7 +19,6 @@ export const WelcomeSection = () => {
 			<div className={styles.content}>
 				{display3D ? (
 					<Model
-						scale={1.4}
 						canvasClassName={styles.monkeyModel}
 						enablePan={false}
 						enableRotate={false}
