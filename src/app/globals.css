@@ -11,6 +11,12 @@ body {
 	background: #030b15;
 }
 
+canvas {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+}
+
 h1,
 h2,
 h3,

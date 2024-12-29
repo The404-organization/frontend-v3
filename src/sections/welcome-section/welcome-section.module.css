@@ -43,6 +43,15 @@
 	width: 713px;
 }
 
+.monkeyModel {
+	padding-left: 100px;
+	padding-bottom: 50px;
+	width: 713px !important;
+	height: 812px !important;
+	min-width: 713px !important;
+	min-height: 812px !important;
+}
+
 .textContent {
 	padding-top: 40px;
 	display: flex;
@@ -103,6 +112,13 @@
 	.monkey {
 		width: 645px;
 	}
+
+	.monkeyModel {
+		width: 645px !important;
+		height: 735px !important;
+		min-width: 645px !important;
+		min-height: 735px !important;
+	}
 }
 
 @media (max-width: 1350px) {
@@ -112,6 +128,13 @@
 
 	.monkey {
 		width: 600px;
+	}
+
+	.monkeyModel {
+		width: 600px !important;
+		height: 683px !important;
+		min-width: 600px !important;
+		min-height: 683px !important;
 	}
 
 	.title {
@@ -139,6 +162,14 @@
 	.monkey {
 		width: 550px;
 	}
+
+	.monkeyModel {
+		padding-left: 0px;
+		width: 550px !important;
+		height: 626px !important;
+		min-width: 550px !important;
+		min-height: 626px !important;
+	}
 }
 
 @media (max-width: 1150px) {
@@ -152,6 +183,13 @@
 
 	.monkey {
 		width: 500px;
+	}
+
+	.monkeyModel {
+		width: 500px !important;
+		height: 570px !important;
+		min-width: 500px !important;
+		min-height: 570px !important;
 	}
 
 	.title {
@@ -176,6 +214,14 @@
 
 	.monkey {
 		width: 450px;
+	}
+
+	.monkeyModel {
+		padding-right: -80px;
+		width: 400px !important;
+		height: 513px !important;
+		min-width: 400px !important;
+		min-height: 513px !important;
 	}
 
 	.title {
@@ -208,6 +254,14 @@
 		width: 400px;
 	}
 
+	.monkeyModel {
+		margin-right: -40px;
+		width: 350px !important;
+		height: 480px !important;
+		min-width: 350px !important;
+		min-height: 480px !important;
+	}
+
 	.title {
 		font-size: 55px;
 	}
@@ -229,6 +283,14 @@
 
 	.monkey {
 		width: 340px;
+	}
+
+	.monkeyModel {
+		margin-right: 0;
+		width: 350px !important;
+		height: 450px !important;
+		min-width: 350px !important;
+		min-height: 450px !important;
 	}
 
 	.title {
@@ -295,6 +357,14 @@
 
 	.monkey {
 		width: 270px;
+	}
+
+	.monkeyModel {
+		margin-right: -50px;
+		width: 270px !important;
+		height: 330px !important;
+		min-width: 270px !important;
+		min-height: 330px !important;
 	}
 
 	.subtitle {
