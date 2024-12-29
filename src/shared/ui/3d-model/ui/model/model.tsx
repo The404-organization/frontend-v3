@@ -3,10 +3,11 @@
 import { useElementPosition } from '@/shared/hooks/use-element-position';
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import { Suspense, useState } from 'react';
+import { LegacyRef, Suspense, useState } from 'react';
 import { ErrorBoundary } from '../error-boundary/error-boundary';
 import { ModelRender } from '../model-render/model-render';
 import { Requirements } from '../requirements/requirements';
+import { ScrollBlock } from '../scroll-block/scroll-block';
 import { ModelProps } from './model.props';
 
 export const Model = ({
@@ -23,7 +24,7 @@ export const Model = ({
 	canvasClassName,
 	canvasStyle,
 }: ModelProps) => {
-	const { elementRef } = useElementPosition();
+	const { elementRef, position } = useElementPosition();
 	const [animationPlay, setAnimationPlay] = useState<boolean>(
 		Boolean(animation?.enabled && animation?.startEvent === 'load'),
 	);
@@ -51,15 +52,15 @@ export const Model = ({
 			<Requirements
 				defaultRender={defaultRender}
 				requirements={requirements || []}>
-				{/* <ScrollBlock
+				<ScrollBlock
 					position={position}
 					onClick={handleClick}
 					onMouseEnter={handleMouseEnter}
 					onMouseLeave={handleMouseLeave}
-				/> */}
+				/>
 				<Canvas
 					style={canvasStyle}
-					ref={elementRef as any}
+					ref={elementRef as LegacyRef<HTMLCanvasElement>}
 					className={canvasClassName}
 					onClick={handleClick}
 					onMouseEnter={handleMouseEnter}

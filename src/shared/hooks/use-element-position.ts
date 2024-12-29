@@ -21,7 +21,7 @@ export const useElementPosition = () => {
 			return;
 		}
 
-		const { width, height, top, left, ...rest } =
+		const { width, height, top, left } =
 			elementRef.current.getBoundingClientRect();
 
 		setPosition({ width, height, top, left });
